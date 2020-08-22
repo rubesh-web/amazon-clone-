@@ -5,6 +5,7 @@ import Header from "./Header";
 import Home from "./Home";
 
 import "./App.css";
+import Checkout from "./Checkout";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
             <h1>LOGIN PAGE</h1>
           </Route>
           <Route path="/checkout">
-            <h1>CHECKOUT PAGE</h1>
+            <Checkout />
           </Route>
           <Route path="/">
             <Header />
